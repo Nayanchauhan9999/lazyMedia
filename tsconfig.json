@@ -1,0 +1,47 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components": [
+        "./src/components"
+      ],
+      "@screens": [
+        "./src/screens"
+      ],
+      "@assets": [
+        "./src/assets"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@apiService/*": [
+        "./src/apiService"
+      ],
+      "@redux/*": [
+        "src/redux/*"
+      ],
+      "@navigation/*": [
+        "./src/navigation/*"
+      ],
+      "@types": [
+        "src/utils/types"
+      ],
+      "@globalStyles": [
+        "src/utils/theme/globalStyles"
+      ],
+      "@responsiveDimensions": [
+        "src/utils/responsiveDimensions"
+      ],
+      "@fontSize": [
+        "src/utils/theme/fontSize"
+      ],
+      "@hooks": [
+        "src/hooks"
+      ],
+      "@asyncStore": [
+        "src/utils/constant/asyncStore"
+      ],
+    }
+  }
+}
